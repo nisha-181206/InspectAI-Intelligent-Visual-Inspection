@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+
+# Dataset
+data/raw/
+data/processed/
+
+# YOLO models / training artifacts
+*.pt
+*.pth
+runs/
+
+# Generated results
+results/detections/
+results/severity/
+results/batch/
+results/*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
