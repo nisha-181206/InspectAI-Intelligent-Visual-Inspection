@@ -636,7 +636,7 @@ InspectAI/
 ---
 
 ## 🏋️ Model Training Workflow
-```text
+```
 Dataset
    ↓
 Data Preprocessing
@@ -656,7 +656,7 @@ Final Model
 ---
 
 ##🧪 Model Testing Workflow
-```text
+
 
 After training, the model will be evaluated using unseen test images.
 
@@ -672,11 +672,11 @@ Calculate Metrics
      ↓
 Generate Evaluation Report
 
-
+```
 ---
 
 ##⚙️ Technologies Used
-
+```
 Technology	Purpose
 Python	Core programming language
 OpenCV	Image processing and computer vision
