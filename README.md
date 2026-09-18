@@ -636,6 +636,7 @@ InspectAI/
 ---
 
 ## 🏋️ Model Training Workflow
+```text
 Dataset
    ↓
 Data Preprocessing
@@ -655,6 +656,7 @@ Final Model
 ---
 
 ## 🧪 Model Testing Workflow
+```text
 
 After training, the model will be evaluated using unseen test images.
 
@@ -674,6 +676,7 @@ Generate Evaluation Report
 ---
 
 ## ⚙️ Technologies Used
+
 Technology	Purpose
 Python	Core programming language
 OpenCV	Image processing and computer vision
@@ -689,6 +692,7 @@ GitHub	Repository hosting
 ---
 
 ## 💻 Installation
+
 Clone the Repository
 git clone https://github.com/nisha-181206/Industrial-Defect-Detection.git
 Navigate to the Project
@@ -713,14 +717,8 @@ The Streamlit interface will open in the browser.
 ---
 
 ## 🏋️ Training the Model
+
 Prepare Dataset
-python training/prepare_dataset.py
-Train Classifier
-python training/train_classifier.py
-Train Detection Model
-python training/train_detector.py
-Evaluate Model
-python training/evaluate.py
 
 These commands will be finalized according to the actual implementation.
 
@@ -779,6 +777,7 @@ Actual Defect
 ---
 
 ## 🔮 Future Improvements
+
 Real-Time Inspection
 
 Integrate the system with an industrial camera for real-time inspection.
@@ -900,6 +899,7 @@ Git/GitHub version control
 ---
 
 ## 📊 Current Implementation Status
+
 Component	Status
 Project Setup	🔄 In Progress
 Dataset Preparation	🔄 In Progress
