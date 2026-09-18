@@ -62,6 +62,8 @@ Inspection Engine
           ↓
 Inspection Report
 
+---
+
 ## 🔬 Defect Classes
 
 The initial system is designed around the following industrial surface defect categories:
@@ -75,7 +77,9 @@ Rolled-in Scale	Scale-related surface abnormalities
 Scratches	Linear marks or scratches on the surface
 
 The final defect classes will depend on the dataset selected for implementation.
+
 ---
+
 ## 🏗️ System Architecture
                          ┌─────────────────────┐
                          │  Industrial Image   │
@@ -581,41 +585,47 @@ The values above are illustrative examples only.
 
 ---
 
-## 📁 Project Structure
-Industrial-Defect-Detection/
+## 📂 Project Structure
+
+```text
+InspectAI/
 │
-├── app.py
-├── config.py
-├── requirements.txt
-├── README.md
+├── 📁 data/
+│   ├── 📁 dataset/
+│   │   ├── 📁 images/
+│   │   │   ├── 📁 train/
+│   │   │   └── 📁 val/
+│   │   │
+│   │   └── 📁 labels/
+│   │
+│   ├── 📁 raw/
+│   └── 📄 data.yaml
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── test/
+├── 📁 results/
 │
-├── models/
-│   ├── defect_classifier/
-│   └── defect_detector/
+├── 📁 runs/
+│   └── 📁 detect/
+│       ├── 📁 predict/
+│       ├── 📁 predict-2/
+│       ├── 📁 predict-3/
+│       ├── 📁 predict-4/
+│       ├── 📁 predict-5/
+│       ├── 📁 predict-6/
+│       ├── 📁 results/
+│       ├── 📁 train/
+│       └── 📁 val/
 │
-├── core/
-│   ├── preprocessing.py
-│   ├── detector.py
-│   ├── classifier.py
-│   ├── severity_analyzer.py
-│   └── inspection_engine.py
+├── 📁 src/
+│   ├── 📄 batch_inspector.py
+│   ├── 📄 convert_neu_to_yolo.py
+│   ├── 📄 defect_analyzer.py
+│   ├── 📄 severity_engine.py
+│   └── 📄 morphology.py
 │
-├── training/
-│   ├── prepare_dataset.py
-│   ├── feature_extraction.py
-│   ├── train_classifier.py
-│   ├── train_detector.py
-│   └── evaluate.py
-│
-├── utils/
-│   ├── visualization.py
-│   ├── metrics.py
-│   └── data_utils.py
+├── 📄 app.py
+├── 📄 .gitignore
+├── 📄 requirements.txt
+└── 📄 README.md
 
 ---
 
@@ -962,3 +972,5 @@ The project demonstrates how artificial intelligence can be applied to automate 
 The overall objective is to explore how computer vision can assist in identifying defects efficiently and provide structured information that can support quality inspection processes.
 
 ## NISHA - 24BAI10441
+
+---
