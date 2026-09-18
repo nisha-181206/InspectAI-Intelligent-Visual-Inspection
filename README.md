@@ -45,7 +45,7 @@ The objective of this project is to develop an automated computer vision system 
 
 The proposed system processes an industrial surface image through multiple stages.
 
-```text
+
 Industrial Surface Image
           ↓
 Image Preprocessing
