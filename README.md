@@ -655,7 +655,7 @@ Final Model
 
 ---
 
-## 🧪 Model Testing Workflow
+##🧪 Model Testing Workflow
 ```text
 
 After training, the model will be evaluated using unseen test images.
@@ -675,7 +675,7 @@ Generate Evaluation Report
 
 ---
 
-## ⚙️ Technologies Used
+##⚙️ Technologies Used
 
 Technology	Purpose
 Python	Core programming language
@@ -691,7 +691,7 @@ GitHub	Repository hosting
 
 ---
 
-## 💻 Installation
+##💻 Installation
 
 Clone the Repository
 git clone https://github.com/nisha-181206/Industrial-Defect-Detection.git
@@ -706,7 +706,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
+##▶️ Running the Application
 
 Once the application is implemented, run:
 
@@ -716,7 +716,7 @@ The Streamlit interface will open in the browser.
 
 ---
 
-## 🏋️ Training the Model
+##🏋️ Training the Model
 
 Prepare Dataset
 
@@ -724,7 +724,7 @@ These commands will be finalized according to the actual implementation.
 
 ---
 
-## 🎯 Potential Applications
+##🎯 Potential Applications
 
 The system can potentially be adapted for:
 
@@ -741,7 +741,7 @@ This project is an educational and research-oriented prototype and is not intend
 
 ---
 
-## ⚠️ Challenges Addressed
+##⚠️ Challenges Addressed
 Low-Contrast Defects
 
 Some defects may have very little visual difference from the surrounding surface.
@@ -776,7 +776,7 @@ Actual Defect
 
 ---
 
-## 🔮 Future Improvements
+##🔮 Future Improvements
 
 Real-Time Inspection
 
@@ -831,7 +831,7 @@ False negatives
 
 ---
 
-## 🧪 Experimental Goals
+##🧪 Experimental Goals
 
 The main experimental goals of this project are:
 
@@ -846,7 +846,7 @@ Create a reproducible machine learning workflow
 
 ---
 
-## 🎓 Learning Outcomes
+##🎓 Learning Outcomes
 Computer Vision
 Image preprocessing
 Image classification
@@ -873,7 +873,7 @@ Git/GitHub version control
 
 ---
 
-## 🗺️ Project Roadmap
+##🗺️ Project Roadmap
 [1] Project Setup
         ↓
 [2] Dataset Preparation
@@ -898,7 +898,7 @@ Git/GitHub version control
 
 ---
 
-## 📊 Current Implementation Status
+##📊 Current Implementation Status
 
 Component	Status
 Project Setup	🔄 In Progress
@@ -916,7 +916,7 @@ Update the status of each component as it is actually implemented.
 
 ---
 
-## 📈 Results
+##📈 Results
 
 Actual model performance will be added after training and testing.
 
@@ -934,7 +934,7 @@ No performance values are fabricated. Results will be updated using experimental
 
 ---
 
-## 🏆 Project Highlights
+##🏆 Project Highlights
 
 This project combines several AI and computer vision components into a single inspection pipeline:
 
@@ -972,7 +972,7 @@ REPORT
 
 ---
 
-## 🌱 Project Impact
+##🌱 Project Impact
 
 The project demonstrates how artificial intelligence can be applied to automate visual inspection workflows.
 
