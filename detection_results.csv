@@ -1,0 +1,4 @@
+image,defect_type,confidence,x1,y1,x2,y2,width,height,bbox_area,area_percentage,morphology_area,aspect_ratio,perimeter,circularity,zone,zone_row,zone_column,center_x,center_y,relative_x,relative_y
+crazing_10.jpg,crazing,0.262,1.83,150.69,152.18,199.42,150.36,48.72,7326.08,18.3152,3508.0,3.082,363.2,0.334,Bottom-Center,3,2,77.0,175.05,0.385,0.875
+crazing_10.jpg,crazing,0.2482,126.66,82.47,199.94,151.0,73.28,68.53,5021.96,12.5549,856.5,1.074,267.78,0.15,Middle-Right,2,3,163.3,116.73,0.817,0.584
+crazing_10.jpg,crazing,0.1736,0.0,131.14,166.72,197.79,166.72,66.65,11112.08,27.7802,5288.5,2.515,572.35,0.203,Bottom-Center,3,2,83.36,164.47,0.417,0.822
