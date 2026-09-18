@@ -327,6 +327,7 @@ The actual folder structure will be adapted according to the selected dataset.
 
 ---
 
+
 ## 🤖 Machine Learning Approach
 
 The project can use different machine learning and deep learning approaches depending on the specific task.
@@ -410,7 +411,7 @@ Defect Area
 
 ---
 
-##📊 Severity Analysis
+## 📊 Severity Analysis
 
 Severity analysis is an additional analytical component of the project.
 
@@ -442,7 +443,7 @@ The final severity thresholds will be determined using the actual dataset and ex
 
 ---
 
-##🔍 Inspection Engine
+## 🔍 Inspection Engine
 
 The inspection engine acts as the central component connecting the different modules.
 
