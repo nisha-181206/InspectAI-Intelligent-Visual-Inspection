@@ -75,7 +75,7 @@ Rolled-in Scale	Scale-related surface abnormalities
 Scratches	Linear marks or scratches on the surface
 
 The final defect classes will depend on the dataset selected for implementation.
-
+---
 ## 🏗️ System Architecture
                          ┌─────────────────────┐
                          │  Industrial Image   │
@@ -115,6 +115,8 @@ The final defect classes will depend on the dataset selected for implementation.
                          ┌─────────────────────┐
                          │ Inspection Report   │
                          └─────────────────────┘
+---
+
 ## 🚀 Key Features
 1. Automated Defect Detection
 
@@ -186,6 +188,8 @@ Defect area
 Defect coverage
 Localization information
 Inspection status
+
+---
 
 ## 🖼️ Computer Vision Pipeline
 
@@ -259,6 +263,7 @@ Defect Characteristics
 Severity Analysis
      ↓
 Severity Level
+---
 
 ##🧹 Data Preprocessing
 
@@ -280,6 +285,7 @@ Scaling
 Brightness variation
 
 Augmentation will be applied carefully so that the visual characteristics of defects are not distorted.
+---
 
 ## 📂 Dataset
 
@@ -315,6 +321,8 @@ dataset/
 
 The actual folder structure will be adapted according to the selected dataset.
 
+---
+
 ## 🤖 Machine Learning Approach
 
 The project can use different machine learning and deep learning approaches depending on the specific task.
@@ -345,6 +353,8 @@ Mask R-CNN
 
 The final architecture will be selected according to the dataset, annotation format, computational requirements, and experimental results.
 
+---
+
 ## 🧠 Deep Learning Architecture
 
 A typical image classification pipeline can be represented as:
@@ -364,6 +374,8 @@ Classification Layer
 Defect Class
 
 Transfer learning can also be used by starting with a pretrained computer vision model and fine-tuning it for industrial defect classification.
+
+---
 
 ## 📍 Defect Localization
 
@@ -391,6 +403,8 @@ Segmentation Model
 Defect Mask
       ↓
 Defect Area
+
+---
 
 ##📊 Severity Analysis
 
@@ -422,6 +436,8 @@ High Severity
 
 The final severity thresholds will be determined using the actual dataset and experimental analysis.
 
+---
+
 ##🔍 Inspection Engine
 
 The inspection engine acts as the central component connecting the different modules.
@@ -441,6 +457,8 @@ Severity Analysis
 Inspection Result
 
 The goal is to provide a unified inspection workflow rather than requiring each component to be executed independently.
+
+---
 
 ## 📈 Model Evaluation
 
@@ -481,6 +499,8 @@ If an object detection model is implemented, additional metrics can include:
 Intersection over Union (IoU)
 Mean Average Precision (mAP)
 
+---
+
 ## 📊 Confusion Matrix
 
 A confusion matrix will be used to analyze class-wise classification performance.
@@ -508,6 +528,8 @@ S  = Scratches
 
 The actual confusion matrix will be generated after model training and evaluation.
 
+---
+
 ## 🖥️ Streamlit Application
 
 A Streamlit interface can be used to make the inspection system interactive.
@@ -529,6 +551,8 @@ Localize Defect
 Analyze Severity
           ↓
 Display Results
+
+---
 
 ## 📋 Example Inspection Result
 ----------------------------------------
@@ -554,6 +578,8 @@ Status          : Requires Inspection
 ----------------------------------------
 
 The values above are illustrative examples only.
+
+---
 
 ## 📁 Project Structure
 Industrial-Defect-Detection/
@@ -591,6 +617,8 @@ Industrial-Defect-Detection/
 │   ├── metrics.py
 │   └── data_utils.py
 
+---
+
 ## 🏋️ Model Training Workflow
 Dataset
    ↓
@@ -608,6 +636,8 @@ Hyperparameter Tuning
    ↓
 Final Model
 
+---
+
 ## 🧪 Model Testing Workflow
 
 After training, the model will be evaluated using unseen test images.
@@ -624,6 +654,8 @@ Calculate Metrics
      ↓
 Generate Evaluation Report
 
+---
+
 ## ⚙️ Technologies Used
 Technology	Purpose
 Python	Core programming language
@@ -637,9 +669,11 @@ Streamlit	Interactive web application
 Git	Version control
 GitHub	Repository hosting
 
+---
+
 ## 💻 Installation
 Clone the Repository
-git clone https://github.com/your-username/Industrial-Defect-Detection.git
+git clone https://github.com/nisha-181206/Industrial-Defect-Detection.git
 Navigate to the Project
 cd Industrial-Defect-Detection
 Create Virtual Environment
@@ -649,6 +683,8 @@ Activate Virtual Environment on Windows
 Install Dependencies
 pip install -r requirements.txt
 
+---
+
 ## ▶️ Running the Application
 
 Once the application is implemented, run:
@@ -656,6 +692,8 @@ Once the application is implemented, run:
 streamlit run app.py
 
 The Streamlit interface will open in the browser.
+
+---
 
 ## 🏋️ Training the Model
 Prepare Dataset
@@ -669,6 +707,7 @@ python training/evaluate.py
 
 These commands will be finalized according to the actual implementation.
 
+---
 
 ## 🎯 Potential Applications
 
@@ -684,6 +723,8 @@ Automated visual inspection
 Surface quality inspection
 
 This project is an educational and research-oriented prototype and is not intended for safety-critical industrial deployment without additional validation and domain-specific testing.
+
+---
 
 ## ⚠️ Challenges Addressed
 Low-Contrast Defects
@@ -717,6 +758,8 @@ The model must distinguish between:
 Normal Surface Texture
           VS
 Actual Defect
+
+---
 
 ## 🔮 Future Improvements
 Real-Time Inspection
@@ -770,6 +813,8 @@ Model performance
 False positives
 False negatives
 
+---
+
 ## 🧪 Experimental Goals
 
 The main experimental goals of this project are:
@@ -782,6 +827,8 @@ Develop a measurable severity analysis method
 Build an interactive inspection interface
 Generate structured inspection results
 Create a reproducible machine learning workflow
+
+---
 
 ## 🎓 Learning Outcomes
 Computer Vision
@@ -808,6 +855,8 @@ Python project organization
 Streamlit application development
 Git/GitHub version control
 
+---
+
 ## 🗺️ Project Roadmap
 [1] Project Setup
         ↓
@@ -831,12 +880,14 @@ Git/GitHub version control
         ↓
 [11] GitHub Documentation
 
+---
+
 ## 📊 Current Implementation Status
 Component	Status
 Project Setup	🔄 In Progress
 Dataset Preparation	🔄 In Progress
 Image Preprocessing	🔄 In Progress
-Defect Classification	🔄 In Progress
+Defect Classification🔄 In Progress
 Defect Detection	🔄 In Progress
 Defect Localization	🔄 In Progress
 Severity Analysis	🔄 In Progress
@@ -845,6 +896,8 @@ Streamlit Interface	🔄 In Progress
 Inspection Report	🔄 In Progress
 
 Update the status of each component as it is actually implemented.
+
+---
 
 ## 📈 Results
 
@@ -861,6 +914,8 @@ IoU	TBD
 mAP	TBD
 
 No performance values are fabricated. Results will be updated using experimentally obtained values.
+
+---
 
 ## 🏆 Project Highlights
 
@@ -897,6 +952,8 @@ ANALYZE
 VISUALIZE
    ↓
 REPORT
+
+---
 
 ## 🌱 Project Impact
 
