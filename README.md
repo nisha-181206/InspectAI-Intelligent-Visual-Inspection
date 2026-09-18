@@ -634,9 +634,9 @@ InspectAI/
 └── 📄 README.md
 
 ---
-
-## 🏋️ Model Training Workflow
 ```
+## 🏋️ Model Training Workflow
+
 Dataset
    ↓
 Data Preprocessing
@@ -674,9 +674,9 @@ Generate Evaluation Report
 
 ```
 ---
-
-##⚙️ Technologies Used
 ```
+##⚙️ Technologies Used
+
 Technology	Purpose
 Python	Core programming language
 OpenCV	Image processing and computer vision
@@ -694,9 +694,9 @@ GitHub	Repository hosting
 ##💻 Installation
 
 Clone the Repository
-git clone https://github.com/nisha-181206/Industrial-Defect-Detection.git
+git clone https://github.com/nisha-181206/Industrial-Defect-Detection
 Navigate to the Project
-cd Industrial-Defect-Detection
+cd InspectAI-Intelligent-Visual-Inspection
 Create Virtual Environment
 python -m venv venv
 Activate Virtual Environment on Windows
