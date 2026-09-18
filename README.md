@@ -328,6 +328,7 @@ The actual folder structure will be adapted according to the selected dataset.
 ---
 
 
+
 ## 🤖 Machine Learning Approach
 
 The project can use different machine learning and deep learning approaches depending on the specific task.
@@ -410,6 +411,7 @@ Defect Mask
 Defect Area
 
 ---
+
 
 ## 📊 Severity Analysis
 
@@ -506,6 +508,7 @@ Mean Average Precision (mAP)
 
 ---
 
+
 ## 📊 Confusion Matrix
 
 A confusion matrix will be used to analyze class-wise classification performance.
@@ -559,6 +562,7 @@ Display Results
 
 ---
 
+
 ## 📋 Example Inspection Result
 ----------------------------------------
        INDUSTRIAL INSPECTION REPORT
@@ -585,6 +589,7 @@ Status          : Requires Inspection
 The values above are illustrative examples only.
 
 ---
+
 
 ## 📂 Project Structure
 
@@ -664,6 +669,7 @@ Compare with Ground Truth
 Calculate Metrics
      ↓
 Generate Evaluation Report
+
 
 ---
 
